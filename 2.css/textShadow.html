@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextShadow</title>
+    <style>
+        h1{
+            /* horizantal vertical blue clolor*/
+            text-shadow: 3px 3px red;
+            text-shadow: 3px 3px 5px red;
+            text-shadow: 3px 3px red,10px 10px green;
+        }
+
+        .box{
+            background-color: aqua;
+            width: 200px;
+            height: 200px;
+            box-shadow: 10px 10px; /* By default text color shawo is taken */
+            box-shadow: 10px 10px green;
+            box-shadow: 10px 10px green, 20px 20px red;
+            color: red;
+            box-shadow: 10px -10px green;
+            box-shadow: -10px 10px green;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is my heading</h1>
+
+    <div class="box">This is div box</div>
+    
+</body>
+</html>
