@@ -5,9 +5,25 @@
 // arr.splice(0,arr.length);
 
 //Combining + Slicing - arrays
-let arr1 = [1,2,3];
-let arr2 = [5,6,2];
-let combinedArr = arr1.concat(arr2);
-console.log(combinedArr);
-console.log(combinedArr.slice(2,4))
-console.log(combinedArr.slice(2))
+// let arr1 = [1,2,3];
+// let arr2 = [5,6,2];
+// let combinedArr = arr1.concat(arr2);
+// console.log(combinedArr);
+// console.log(combinedArr.slice(2,4))
+// console.log(combinedArr.slice(2))
+
+//homework
+// combining & splicing on Objects
+
+//spread
+// let arr1 = [1,2,3];
+// let arr2 = [5,6,2];
+// let combinedArr = [...arr1,'hi',...arr2]
+// console.log(combinedArr)
+
+//sorting
+let arr = [4,100,3,1,70];
+console.log(arr.sort())
+
+//HOMEWORK
+//convert this to int & sort properly
