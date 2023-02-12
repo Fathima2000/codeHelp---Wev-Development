@@ -25,5 +25,5 @@
 let arr = [4,100,3,1,70];
 console.log(arr.sort())
 
-//HOMEWORK
-//convert this to int & sort properly
+arr.sort((a,b)=>a-b)
+console.log(arr)

@@ -16,3 +16,25 @@ console.log("hi");
 // Object literal {}
 // String literal ''
 // Template literal ``
+
+// function sum(a,b){
+//     return a+b;
+// }
+// console.log(sum(1));
+// console.log(sum());
+// console.log(sum(1,2,3,4,5));
+
+// function sum(a,b){
+//     let total = 0;
+//     for(let value of arguments){
+//         total += value;
+//     }
+//     return total;
+// }
+// console.log(sum(1,2,3,4))
+
+//all right values should be default prarameters
+// function sum(a, b=5, c){
+//     return a+b+c;
+// }
+// console.log(sum(5))
