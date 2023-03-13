@@ -192,9 +192,6 @@ generateBtn.addEventListener('click', () => {
     if(symbolsCheck.checked)
         funcArr.push(generateSymbol);
 
-    // For eg: You have checked 4 boxes & therefore each char will become 4 length password -> compulsory addition
-    // But if you have selected length as 10 -> remaining addition
-
     //compulsory addition
     for(let i=0; i<funcArr.length; i++) {
         password += funcArr[i]();
